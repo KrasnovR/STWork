@@ -24,7 +24,7 @@ namespace ST.Controls
         //Бюджет взят просто для визуального(написано вручную)
         private void dataConnect()
         {
-            SQLiteConnection connect = new SQLiteConnection(@"Data Source C:\Users\ПК\Desktop\STWork1\STWork\ST; Version=3;");
+            SQLiteConnection connect = new SQLiteConnection(@"Data Source= C:\Users\ПК\Desktop\STWork1\STWork\ST; Version=3;");
             string datagrid = "SELECT fullname,salary,groups FROM Users ORDER BY fullname";
             Com = new SQLiteCommand(datagrid, connect);
             connect.Open();

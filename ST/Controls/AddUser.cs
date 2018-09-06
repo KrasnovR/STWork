@@ -16,7 +16,7 @@ namespace ST.Controls
         bool open = true;
         string group;
         SQLiteCommand com;
-        SQLiteConnection connect = new SQLiteConnection(@"Data Source C:\Users\ПК\Desktop\STWork1\STWork\ST; Version=3;");
+        SQLiteConnection connect = new SQLiteConnection(@"Data Source= C:\Users\ПК\Desktop\STWork1\STWork\ST\HR.db; Version=3;");
 
         /// C помощью Trim убираю возможны случайные пробелы введенные пользователем и
         ///составления из 3 textbox полное значение ФИО, которое после отправляю в базу
