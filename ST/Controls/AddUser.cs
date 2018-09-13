@@ -48,6 +48,7 @@ namespace ST.Controls
                 tbSuName.Text = null;
                 tbPatr.Text = null;
                 tbName.Text = null;
+                tbSalary.Text = null;
                 MessageBox.Show("Вы успешно зарегистрированы!", "", MessageBoxButtons.OK);
             }
         }
