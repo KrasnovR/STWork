@@ -22,7 +22,7 @@ namespace ST.Controls
         }
         SQLiteCommand com;
         static string ID = Contact.ID;
-        SQLiteConnection connect = new SQLiteConnection(@"Data Source= C:\Users\ПК\Desktop\STWork1\STWork\ST\HR.db; Version=3;");
+        SQLiteConnection connect = new SQLiteConnection(@"Data Source=C:\Users\ПК\Desktop\STWork1\STWork\ST\HR.db; Version=3;");
 
         //Запрос суммы подчиненных данного пользователя и из количество 
         private void SumAll()

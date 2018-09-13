@@ -10,7 +10,8 @@ namespace ST
     
     class Contact 
     {
-        public SQLiteConnection connect = new SQLiteConnection(@"Data Source= C:\Users\ПК\Desktop\STWork1\STWork\ST\HR.db; Version=3;");
+        //
+        public SQLiteConnection connect = new SQLiteConnection(@"Data Source=C:\Users\ПК\Desktop\STWork1\STWork\ST\HR.db; Version=3;");
         private SQLiteCommand command;
         public static string ID;
 
